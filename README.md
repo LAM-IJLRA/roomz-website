@@ -1,3 +1,3 @@
-# Anaglyph website
+# Roomz website
 
-Sources of the [Anaglyph project website](http://anaglyph.dalembert.upmc.fr/)
+Sources of the [Roomz project website](http://roomz.dalembert.upmc.fr/)
