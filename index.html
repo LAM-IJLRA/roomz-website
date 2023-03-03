@@ -55,7 +55,7 @@
 
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a id="home-logo-link" href="index.html" class="navbar-left"><img class="img-responsive" style="width:100px; margin-top:9px; margin-bottom:2px; margin-left:9px; margin-right:20px" src="img/roomz_logo.png" ></a>
+                <!-- <a id="home-logo-link" href="index.html" class="navbar-left"><img class="img-responsive" style="width:100px; margin-top:9px; margin-bottom:2px; margin-left:9px; margin-right:20px" src="img/roomz_logo.png" ></a> -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -67,12 +67,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li id="home-navbar-replacement"> <a href="index.html">Home</a> </li>
+                    <!-- <li id="home-navbar-replacement"> <a href="index.html">Home</a> </li> -->
+                    <li> <a href="index.html">Home</a> </li>
                     <li> <a href="index.html#download">Download</a> </li>
-                    <li> <a href="page-gallery.html">Gallery</a> </li>
-                    <li> <a href="page-tutorials.html">Tutorials</a> </li>
-                    <li> <a href="page-references.html">References</a> </li>
-                    <li> <a href="page-misc.html">Misc.</a> </li>
+                    <!-- <li> <a href="page-gallery.html">Gallery</a> </li> -->
+                    <!-- <li> <a href="page-tutorials.html">Tutorials</a> </li> -->
+                    <!-- <li> <a href="page-references.html">References</a> </li> -->
+                    <!-- <li> <a href="page-misc.html">Misc.</a> </li> -->
                 </ul>
             </div>
         </div>
@@ -88,9 +89,107 @@
             <div class="col-lg-12 text-left">
                 <h1 style="color: #73899a;">Roomz</h1>
             </div>
+            <div class="col-lg-12 text-justify">
+                <p> Dynamic auralization based on RIRs convolution.</p>
+            </div>
+
+            <p> </p> <!-- insert line break -->
+
+            <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+                <p style="margin-top: 20px; margin-bottom: 0px;">
+                    <i>It's not doing much, if it sounds good, it's on you</i>
+                </p>
+                <img class="img-responsive center-block" style="margin-top: 0px;" src="img/roomz-gui.jpg">
+            </div>
+
+
+             <div class="col-sm-12 text-justify">
+                <p>
+                    Roomz is part of an ongoing research effort to make accessible the fruits of room acoustics research to audio engineers working in <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation">DAW</a> environments.
+                    Roomz enables the creation of dynamic auralizations, with either sources or receivers moving within a 2D grid of Room Impulse Responses (RIRs).
+                    Amongst its features, Roomz supports fast multi-core partitionned convolution, custom navigation scenarios creation and channel agnostic auralization (monaural, binaural, ambisonic, etc.).
+                </p>
+            </div>
+
         </div>
 
-    </div>
+
+        <div class="row" id="download">
+            <div class="col-lg-12 text-justify">
+                <h2>Download</h2>
+                    <p>Download files and follow instructions according to your architecture: </p>
+
+                    <ul class="airy-list">
+                        <li> <i class="fa fa-apple fa-1x"> </i> MacOS (VST3, AU): <a href="release/roomz-macos-v0.zip" download onclick="handleOutboundLinkClicks('OSX BUNDLE');">roomz-macos-v0.zip</a></li>
+
+                        <li> <i class="fa fa-windows fa-1x"> </i> Windows (VST3): <a href="release/roomz-win-v0.zip" download onclick="handleOutboundLinkClicks('WIN BUNDLE');" >roomz-win-v0.zip</a></li>
+
+                        <!--
+                        <li> <i class="fa fa-windows fa-1x"> </i> Windows 32 bits (VST, VST3): <a href="release/roomz-win32-v0.zip" download onclick="handleOutboundLinkClicks('WIN 32 BUNDLE');" >roomz-win32-v0.zip</a></li>
+                         -->
+                    </ul>
+
+                    <!--
+                    <p> <a href="mailto: sympa@listes.upmc.fr?subject=subscribe roomz"> Subscribe to the mailing list</a> for updates on future releases (<a href="https://www.listes.upmc.fr/wws/arc/roomz">newsletter archives</a>). Previous releases and release notes can be found <a href="page-misc.html#release-note">here</a>. </p>
+                    -->
+
+
+            </div>
+        </div>
+
+
+        <div class="row" id="features">
+            <div class="col-lg-12 text-justify">
+                <h2>Features</h2>
+
+                <h3>Fast Partitionned Convolution</h3>
+                <p>...</p>
+
+                <h3>Channel Agnostic Convolution</h3>
+                <p>...</p>
+
+                <h3>Custom Scenario Creation</h3>
+                <p>...</p>
+
+                <h3>Intuitive Navigation Interface</h3>
+                <p>...</p>
+
+            </div>
+        </div>
+
+
+        <div class="row" id="about">
+            <div class="col-lg-12 text-justify">
+                <h2>About</h2>
+
+                <!--
+                <p>
+                    <b>Cite</b>:
+                    <p class="bibitem" ><a id="XPoirier-Quinot2018"></a><a href="https://pyrapple.github.io/">D.&#x00A0;Poirier-Quinot</a> and <a href="http://www.lam.jussieu.fr/Membres/Katz/index.php?page=accueil">B.&#x00A0;F.G. Katz</a>, &#8220;The roomz binaural audio engine,&#8221; <span ="ptmri8t-">Proc. Audio Eng. Soc.</span>, pp. 9591:1–8, May 2018. ref: <a href="http://www.aes.org/e-lib/browse.cfm?elib=19544" >10.1121/1.4996457</a>.
+                    </p>
+                </p>
+                 -->
+
+                <p>
+                    <b>License</b>: The roomz plugin is released under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.
+                </p>
+
+                <p>
+                    <b>Credits</b>:
+                    Roomz was developed in the context of numerous academic research projects with the CNRS and Sorbonne University, with participation by the CNSMDP within the remit of the <a href="http://pasthasears.dalembert.upmc.fr/doku.php/phend">PHEND</a> project.
+                    <br>
+                </p>
+                <p>
+                    The Roomz project is supervised by <a href="http://www.lam.jussieu.fr/Membres/Katz/index.php?page=accueil">Brian F.G. Katz</a>.
+                </p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <p> </p>
+                <p>
+                    <a href="mailto:roomz@dalembert.upmc.fr"><i class="fa fa-envelope-o fa-2x"></i></a>
+                </p>
+            </div>
+        </div>
 
 
 </body>
