@@ -1,3 +1,3 @@
 # Roomz website
 
-Sources of the [Roomz project website](http://roomz.dalembert.upmc.fr/)
+Sources of the [RoomZ project website](http://roomz.dalembert.upmc.fr/)
